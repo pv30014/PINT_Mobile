@@ -1,0 +1,31 @@
+# Environment files and local secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Flutter and Dart generated files
+**/.dart_tool/
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/coverage/
+
+# Android / Gradle local files and signing keys
+**/.gradle/
+**/local.properties
+**/key.properties
+**/*.jks
+**/*.keystore
+**/*.p12
+**/*.pfx
+**/*.pem
+**/*.key
+
+# JavaScript dependencies
+**/node_modules/
+
+# Local SQLite databases (may contain personal data)
+*.db
+*.db-*
